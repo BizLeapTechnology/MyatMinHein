@@ -1,9 +1,9 @@
-package com.bizleap;
+package com.bizleap.assignment.one;
 
 /**
  * Created by M2h_Laptop on 1/15/2018.
  */
-public class Assignment_One_NoLoop {
+public class IntegerPairNoLoop {
     static int n = 1, temp = 0;
 
     static void NoLoop() {

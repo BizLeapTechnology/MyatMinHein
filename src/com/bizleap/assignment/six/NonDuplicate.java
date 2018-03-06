@@ -1,9 +1,9 @@
-package com.bizleap;
+package com.bizleap.assignment.six;
 
 /**
  * Created by M2h_Laptop on 2/7/2018.
  */
-public class Assignment_Six {
+public class NonDuplicate {
     public static void main(String[] args) {
         int[] arr = {0, 1, 2, 3, 4, 3, 5, 6, 4, 7, 8, 7, 8, 8};
 

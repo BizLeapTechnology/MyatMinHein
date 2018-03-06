@@ -1,11 +1,11 @@
-package com.bizleap;
+package com.bizleap.assignment.nineten;
 
 import java.util.HashMap;
 
 /**
  * Created by M2h_Laptop on 2/8/2018.
  */
-public class Assignment_NineTen {
+public class MyHashTable {
     public static void main(String[] args) {
         String name = "admin";
         HashMap<Character, Integer> hmap = new HashMap<>();

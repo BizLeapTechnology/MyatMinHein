@@ -1,4 +1,4 @@
-package com.bizleap;
+package com.bizleap.assignment.twelve;
 
 /**
  * Created by M2h_Laptop on 06-Mar-18.

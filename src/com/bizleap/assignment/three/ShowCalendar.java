@@ -1,4 +1,4 @@
-package com.bizleap;
+package com.bizleap.assignment.three;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -8,11 +8,11 @@ import java.util.Date;
 /**
  * Created by M2h_Laptop on 1/15/2018.
  */
-public class Assignment_Three {
+public class ShowCalendar {
     public static void main(String[] args) {
         int dayOfYear = 112;
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.DAY_OF_YEAR, dayOfYear);
+        java.util.Calendar calendar = java.util.Calendar.getInstance();
+        calendar.set(java.util.Calendar.DAY_OF_YEAR, dayOfYear);
         System.out.println("Day " + dayOfYear + " of the current year = "
                 + calendar.getTime());
 
@@ -20,7 +20,7 @@ public class Assignment_Three {
         // a specific year, you can also pass the year information to the
         // calendar object.
         int year = 2020;
-        calendar.set(Calendar.YEAR, year);
+        calendar.set(java.util.Calendar.YEAR, year);
         System.out.println("Day " + dayOfYear + " in year " + year
                 + " = " + calendar.getTime());
     }

@@ -1,4 +1,4 @@
-package com.bizleap;
+package com.bizleap.assignment.two;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.IOException;
 /**
  * Created by M2h_Laptop on 1/15/2018.
  */
-public class Assignment_Two_Recursive {
+public class DirectoryReaderRecursive {
     public static void main(String args[]) {
         File currentDir = new File("."); // current directory
         displayDirectoryContents(currentDir);

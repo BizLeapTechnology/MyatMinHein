@@ -1,10 +1,10 @@
-package com.bizleap;
+package com.bizleap.assignment.seven;
 import java.util.Arrays;
 import java.util.HashMap;
 /**
  * Created by M2h_Laptop on 2/7/2018.
  */
-public class Assignment_Seven_One {
+public class DuplicateNumber {
     public static void main(String[] args) {
         int result = 0;
         int[] arr1 = new int[]{0, 1, 2, 3, 4, 3, 5, 6, 4, 7, 8, 7, 8, 8};

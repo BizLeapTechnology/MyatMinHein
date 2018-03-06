@@ -1,16 +1,16 @@
-package com.bizleap;
+package com.bizleap.assignment.four;
 
 /**
  * Created by M2h_Laptop on 1/16/2018.
  */
-public class Assignment_Four {
+public class Entity {
     public static void main(String[] args) {
 
     }
 }
-class employee{
+class Employee {
     String eFname,eLname,eAge,eTitle,eSalary,eEmail,ePhone;
-    employee(String fn,String ln,String a,String t,String s,String e,String p){
+    Employee(String fn, String ln, String a, String t, String s, String e, String p){
         eFname = fn;
         eLname = ln;
         eAge = a;
@@ -57,9 +57,9 @@ class employee{
     }
 
 }
-class company{
+class Company {
     String comName,cAddress,cPhone,cEmail,ceo;
-    company(String cn,String a,String p,String e,String Ceo){
+    Company(String cn, String a, String p, String e, String Ceo){
         comName = cn;
         cAddress = a;
         cPhone = p;

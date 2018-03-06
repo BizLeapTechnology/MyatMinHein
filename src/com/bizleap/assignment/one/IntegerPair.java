@@ -1,9 +1,9 @@
-package com.bizleap;
+package com.bizleap.assignment.one;
 
 /**
  * Created by M2h_Laptop on 1/15/2018.
  */
-public class Assignment_One {
+public class IntegerPair {
     public static void main(String args[]) {
         int i = 1, j = 2;
         for (int n = 1; n < 21; n++)

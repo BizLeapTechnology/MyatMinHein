@@ -10,24 +10,20 @@ import java.util.Scanner;
  */
 public class Testing {
     public static void main(String[] args) {
-        char character = 'a';
-        int number = (int) character;
-        System.out.println(number);
 
-
-        System.out.println();
-        System.out.println();
-
-
-        System.out.println("-----------------------------");
-
-        String name = "admin";
-        for(int i=0; i<5; i++){
-            char a1 = name.charAt(i);
-            int a2 = (int) a1;
-            System.out.println("The number is : "+a2);
-        }
 
     }
 
+    public void NonDuplicate() {
+        int[] arr = {0, 1, 2, 3, 4, 3, 5, 6, 4, 7, 8, 7, 8, 8};
+
+        for(int i=0; i<arr.length;i++){
+            for(int j=i+1; j<arr.length;j++){
+                if(arr[i] == arr[j]){
+                    System.out.println("Number: "+arr[i]+" found repeating at position: "+i+" , repeated at position "+j);
+                }
+            }
+        }
+
+    }
 }

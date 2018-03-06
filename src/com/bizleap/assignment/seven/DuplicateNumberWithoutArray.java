@@ -1,9 +1,9 @@
-package com.bizleap;
+package com.bizleap.assignment.seven;
 
 /**
  * Created by M2h_Laptop on 2/8/2018.
  */
-public class Assignment_Seven_Two {
+public class DuplicateNumberWithoutArray {
     public static void main(String[] args) {
 
 

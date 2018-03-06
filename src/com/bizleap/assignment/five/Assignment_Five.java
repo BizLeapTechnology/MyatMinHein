@@ -1,9 +1,9 @@
-package com.bizleap;
+package com.bizleap.assignment.five;
 
 /**
  * Created by M2h_Laptop on 2/7/2018.
  */
-class Assignmnet_Five {
+class PutString {
     public static void main(String[] args) {
         String str[]={"1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","30"};
         int arr[]=new int[str.length];
