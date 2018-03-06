@@ -14,17 +14,6 @@ public class Assignment_Six {
                 }
             }
         }
-        
-    }
-    public int getNonDuplicateInt(){
-        int[] list = {0, 1, 2, 3, 4, 3, 5, 6, 4, 7, 8, 7, 8, 8};
-        for(int i=0; i<list.length;i++){
-            for(int j=i+1; j<list.length;j++){
-                if(list[i] == list[j]){
 
-                }
-            }
-        }
-        return 1;
     }
 }
